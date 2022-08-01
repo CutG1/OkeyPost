@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <HeaderMenu />
+    <!-- <HeaderMenu /> -->
     <router-view />
-    <FooterContent />
+    <!-- <FooterContent /> -->
   </div>
 </template>
 
 <script>
-import HeaderMenu from "@/components/HeaderMenu.vue";
-import FooterContent from "@/components/FooterContent.vue";
+// import HeaderMenu from "@/components/HeaderMenu.vue";
+// import FooterContent from "@/components/FooterContent.vue";
 export default {
   name: "App",
   components: {
-    HeaderMenu,
-    FooterContent,
+    // HeaderMenu,
+    // FooterContent,
   },
 };
 </script>

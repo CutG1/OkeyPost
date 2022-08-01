@@ -1,6 +1,6 @@
 <template>
   <div>
-    <headerMenu />
+    <!-- <headerMenu /> -->
 
     <!-- =======styleHeader====== -->
     <div class="header">
@@ -51,18 +51,18 @@
     </div>
     <!-- =============================== -->
 
-    <FooterContent />
+    <!-- <FooterContent /> -->
   </div>
 </template>
 
 <script>
-import HeaderMenu from "@/components/HeaderMenu.vue";
-import FooterContent from "@/components/FooterContent.vue";
+// import HeaderMenu from "@/components/HeaderMenu.vue";
+// import FooterContent from "@/components/FooterContent.vue";
 import HowBuy5content from "@/components/pageContents/HowBuy5content.vue"
 export default {
   components: {
-    HeaderMenu,
-    FooterContent,
+    // HeaderMenu,
+    // FooterContent,
     HowBuy5content
   },
 };
