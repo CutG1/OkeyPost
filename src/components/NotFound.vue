@@ -34,7 +34,7 @@
           </p>
         </div>
         <div class="error__nav e-nav">
-          <a href="" target="_blanck" class="e-nav__link"></a>
+          <router-link to="/" target="_blanck" class="e-nav__link"></router-link>
         </div>
       </div>
       <!-- END Content -->
